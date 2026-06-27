@@ -4,9 +4,9 @@
 
     while [ "$valid_selection" = false ]; do
         echo "What you want to do ?:"
-        echo "[0] Default EKS Install"
+        echo "[0] Default EKS + Docker Install"
         echo "[1] Docker Install"
-        echo "[2] EKS Install"
+        echo "[2] EKS + Docker Install"
         echo "[3] Cluster Create"
         echo "[4] Cluster Delete"
         
