@@ -1,0 +1,58 @@
+.design1
+    {
+        width: 500px;
+        height: auto;
+        color: black;
+        text-align: justify;
+        margin-left: 50px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+.design2
+    {
+        width: 280px;
+        height: auto;
+        color: black;
+        text-align: justify;
+        margin-left: 50px;
+        cursor: pointer;  
+    }
+.design3
+    {
+        width: 600px;
+        height: auto;
+        margin-left: 580px;
+        margin-top: -780px;
+        text-align: justify;
+        color: black;
+    }
+.design4
+    {
+        width: 400px;
+        height: auto;
+        margin-left: 1430px; 
+        margin-top: -600px;
+        text-align: justify;
+        color: black; 
+    }
+.design5
+    {
+        width: 400px;
+        height: auto;
+        margin-left: 1430px;    
+    }
+.design6
+    {
+        width: 400px;
+        height: auto;
+        margin-left: 1430px;   
+    }
+.design7
+    {
+        width: 400px;
+        height: auto;
+        margin-left: 1430px;
+    }
+.bbc-logo{
+    margin-left: 500px;
+}
