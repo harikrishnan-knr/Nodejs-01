@@ -37,7 +37,6 @@ resource "aws_instance" "eks" {
     aws_security_group.dev_sg.id
   ]
   key_name = "singapore"
-  user_data = file("*.sh")
   tags = {
     Name = "EKS"
   }
