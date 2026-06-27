@@ -1,4 +1,4 @@
-resource "aws_instance" "server" {
+resource "aws_instance" "jenkins" {
   count         = 1
   ami           = "ami-0532913178263be11"
   instance_type = "t3.small"
