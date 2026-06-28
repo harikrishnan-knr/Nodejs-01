@@ -80,7 +80,7 @@ pipeline{
   }
   stage('pod checkout'){
     steps{
-      sh 'kubectl get pod -0 wide'
+      sh 'kubectl get pod -o wide'
     }
   }
 }
