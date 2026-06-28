@@ -75,7 +75,7 @@ pipeline{
   }
   stage('kuberternes manifestation'){
     steps{
-      sh 'kuberctl apply -f ${KUBE_FILE}'
+      sh 'kubectl apply -f ${KUBE_FILE}'
     }
   }
   stage('pod checkout'){
