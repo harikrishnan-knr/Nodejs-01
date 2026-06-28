@@ -5,7 +5,7 @@ pipeline{
 	environment{
 	IMAGE_NAME = 'bbcnews'
 	CONTAINER_NAME = 'newsapp'	
-  DOCKERHUB_USERNAME = 'harikrishnanknr'
+  	DOCKERHUB_USERNAME = 'harikrishnanknr'
                     }
 
 	stages{
