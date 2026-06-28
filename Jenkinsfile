@@ -117,17 +117,17 @@ pipeline {
         }
     }
 
-    post {
+post {
         success {
-            echo 'Pipeline executed successfully!'
+            mail to: 'harikrishnan.cse7@gmail.com',
+                 subject: "SUCCESS: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+                 body: "Build succeeded: ${env.BUILD_URL}"
         }
 
         failure {
-            echo 'Pipeline execution failed!'
-        }
-
-        always {
-            cleanWs()
+            mail to: 'harikrishnan.cse7@gmail.com',
+                 subject: "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+                 body: "Build failed: ${env.BUILD_URL}"
         }
     }
 }
